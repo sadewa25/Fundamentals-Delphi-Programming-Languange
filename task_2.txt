@@ -1,0 +1,52 @@
+1. Terdapat 3 kata nama, 
+Nama Depan : 
+Nama Belakang : 
+Nama Keluarga :
+
+Mencari Ukuran => 
+Jika, NamaDepan = 0 - Nama Depan <= 5, 
+	Nama Belakang < 5
+		Nama Keluarga = 0  -> Passport Ijo
+		Nama Keluarga > 0 - Nama Keluarga < 5  -> Passport Merah
+		Nama Keluarga > 10 -> Passport Biru
+	Nama Belakang > 10 - NamaBelakang < 20
+		Nama Keluarga = 0 -> Passport Ijo
+		Nama Keluarga > 0 - Nama Keluarga < 15 -> Passport Merah
+		Nama Keluarga > 15 -> Passport Biru
+Jika, NamaDepan > 5
+	NamaBelakang > 0 - NamaBelakang < 15
+		Nama Keluarga = 0  -> Passport Ijo
+		Nama Keluarga > 0 - Nama Keluarga < 7  -> Passport Merah
+		Nama Keluarga > 7 -> Passport Biru
+	Nama Belakang > 15
+		Nama Keluarga = 0 -> Passport Ijo
+		Nama Keluarga > 0 - Nama Keluarga < 15 -> Passport Merah
+		Nama Keluarga > 15 -> Passport Biru	
+
+
+
+2. Switch Case 
+Inputan Adalah Nilai :
+Jika Nilai sama dengan 
+
+A+,A++ -> Nilai Anda 100
+A -> Nilai Anda 90
+B+,B ->  Nilai Anda 70
+C -> Nilai Anda 60
+C+,D -> Nilai Anda 0
+
+
+3. Menghitung Body Mass Index (BMI)
+TB = Tinggi Badan
+BB = Berat Badan
+BMI = (BB) / (TB) * (TB)
+
+Sample, BB = 70 kg dan TB = 165 cm, maka  BMI = (70) / (1.65) * (1.65) = 25.71
+
+less than 18.5 Underweight
+18.5 to 24.9 Normal weight
+25 to 29.9 Over weight
+30 to 34.9 Obesity 1
+35 to 39.9 Obesity 2
+more than 40 Obesity 3
+
