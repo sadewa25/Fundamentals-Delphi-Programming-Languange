@@ -1,0 +1,60 @@
+program ObjectClass;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+type
+  mahasiswa = object
+    //Encapsulation
+    private nim: Integer;nama:String;
+    public
+      //Setter/ Getter
+      //NIM
+      procedure setNim(n:Integer);
+      function getNim():Integer;
+      //Nama
+      procedure setNama(n:String);
+      function getNama():String;
+  end;
+
+//Global Declaration
+var
+mhs:mahasiswa;
+procedure mahasiswa.setNim(n: Integer);
+begin
+  nim := n;
+end;
+
+procedure mahasiswa.setNama(n: string);
+begin
+  nama:=n;
+end;
+
+function mahasiswa.getNim():Integer;
+begin
+  getNim := nim;
+end;
+
+function mahasiswa.getNama():String;
+begin
+  getNama := nama;
+end;
+
+Var
+//SnakeCase/ python
+luas_persegi : Integer;
+//CamalCase/ Java, C, C++, C#
+luasPersegiPanjang :Integer;
+
+base:Integer;
+//Main Function
+begin
+  mhs.setNim(2);
+  mhs.setNama('Rudi');
+  writeln('Nim :',mhs.getNim,'__ Nama :',mhs.getNama);
+  Readln(base);
+end.

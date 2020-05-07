@@ -1,0 +1,5 @@
+Buatlah Sebuah Object Sebuah Mobil, yg memiliki attribut
+* Nama Mobil
+* Tahun Dibuat
+* Perusahaan Pembuat
+* Nomer Plat

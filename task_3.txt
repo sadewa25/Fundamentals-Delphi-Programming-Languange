@@ -1,0 +1,21 @@
+1. Tugas 1
+
+N = 5 => Menyesuaikan Inputan Nilai N
+*****
+****
+***
+**
+*
+
+2. Tugas 2
+N = 7 => * Ganjil - Genap
+*
+*-
+*-*
+*-*-
+*-*-*
+*-*-*-
+*-*-*-*
+
+3. Tugas 3
+--> Menyusul 

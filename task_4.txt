@@ -1,0 +1,8 @@
+1. Username : admin
+admin = nimda => Salah
+Katak = Katak => Benar
+
+2. Mengitung Nilai Rata Rata Siswa, 
+N => 10 10
+Siswa[0] => inputUser()
+Siswa[9] => inputUser()
